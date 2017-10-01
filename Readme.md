@@ -12,11 +12,13 @@ Asserts acts as a self documentation.
 So use asserts early and often
 
 2) const correctness
+
 In C++ we have the advantages of using const in most of the places. 
-1) Prefer to use const for local variables that do not change
-2) Prefer to use const for method arguments that are not POD. Pass them by const ref or const pointer
-3) Prefer to use const for member functions that do not modify class state.
-4) const early const often
+
+Prefer to use const for local variables that do not change.
+Prefer to use const for method arguments that are not POD. Pass them by const ref or const pointer.
+Prefer to use const for member functions that do not modify class state.
+const early const often.
 
 Advantages: The beauty of const which most people underestimate is correctness that it imposes on the code.
 If one developer forgets to put a const in the variable which was supposed to be const, another developer can modify it without getting any warning from compiler. if developer put const in the variable and if another developer tries to modify it, he/she will get the warning from the compiler
