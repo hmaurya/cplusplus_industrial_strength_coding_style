@@ -11,7 +11,7 @@
 - Asserts acts as a micro unittests.
 - Asserts acts as a self documentation.
 
-*So use asserts early and often*
+*So use asserts early and often* :+1:
 
 2. **const correctness** In C++ we have the advantages of using const in most of the places. 
 
